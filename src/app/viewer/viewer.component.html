@@ -1,0 +1,42 @@
+
+
+<div class="container">
+    <div #markinglayer class="layer"></div>
+
+    <div #original  class="layer"></div>
+</div>
+
+<svg width="600" height="400">
+	<g></g>
+  </svg>
+
+
+<ul style="position: relative; top:-350px">
+    <li>
+
+        <button (click)="decoupe()">
+            <div #container>Decoupe</div>
+            <div class="color red"></div></button>
+    </li>
+    <li>
+        <button (click)="gravure()">
+            <div #container>Gravure</div>
+            <div class="color blue"></div>
+        </button>
+    </li>
+    <li>
+    
+        
+    </li>
+    <li>
+        Hight: {{height}}
+    </li>
+    <li>
+        Weight: {{width}}
+    </li>
+    Scale: <button>100%</button>
+</ul>
+
+
+
+ 

@@ -1,0 +1,28 @@
+.color{
+    width: 10px;
+    height: 10px;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+
+.container {
+ 
+ 
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+
+.layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
